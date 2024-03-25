@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прототип</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Логотип</h1>
+            
+        <button id="whatsapp" onclick="window.open('https:/\/wa.me/77015309898', '_blank');">
+            <img src="images/wapp.png" alt="WhatsApp">
+            <span>Ватсап с +7 701 530 9898  </span>
+        </button>
+            <nav>
+                <a href="main.html" id="homeLink">Главная</a>
+                <a href="about.html" id="aboutLink">О нас</a>
+                <a href="contact.html" id="contactLink">Контакты</a>
+                <button onclick="changeLanguage('ru')">RU</button>
+                <button onclick="changeLanguage('kk')">KK</button>
+                <button onclick="changeLanguage('en')">EN</button>
+            </nav>
+        </header>
+
+        <section id="home">
+            <h2 id="welcomeText">Приветственный текст</h2>
+            <p id="welcomeParagraph">Добро пожаловать на наш сайт!</p>
+        </section>
+        <section id="about">
+            <h2 id="aboutText">О нас</h2>
+            <p id="aboutParagraph">Мы занимаемся чем-то интересным.</p>
+        </section>
+        <section id="contact">
+            <h2 id="contactText">Контакты</h2>
+            <p id="contactParagraph">Наш адрес: где-то, город, страна</p>
+            <p id="tel">Телефон: +7 701 530 9898</p>
+            <p>Email: example@example.com</p>
+        </section>
+
+        <footer>
+            <p id="footerText">© 2024 Одностраничный сайт. Все права защищены.</p> 
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

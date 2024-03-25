@@ -1,0 +1,79 @@
+body {
+    background-image: url('images/background.png'); /* Замените 'background.jpg' на путь к вашему изображению */
+    background-attachment: fixed; /* Зафиксировать фоновое изображение */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+
+.container {
+    max-width: 1200px; /* Ширина контейнера с содержимым сайта */
+    margin: 0 auto; /* Центрирование контейнера на странице */
+    background-color: rgba(255, 255, 255, 0.9);
+    min-height: 100vh; /* Минимальная высота контейнера, равная высоте окна браузера */
+    display: flex; /* Использование flexbox для распределения контента */
+    flex-direction: column; /* Контейнер будет выстраиваться вертикально */
+}
+
+.content{
+    padding: 20px;
+    margin: 10px;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон для шапки и подвала */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #555;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgba(92, 46, 15, 0.8); /* Полупрозрачный черный фон для шапки и подвала */
+    color: #fff;
+    padding: 20px;
+    margin-top: auto; /* Фиксация подвала внизу страницы */
+}
+
+#whatsapp {
+    width: 250px; 
+    height: 50px;
+    margin: 10px 20px;
+    padding: 5px; /* Добавление отступов */
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста */
+    border: none; /* Удаление границы кнопки */
+    border-radius: 5px; /* Округление углов кнопки */
+}
+
+#whatsapp img {
+    width: 40px; /* Ширина изображения */
+    height: 40px; /* Высота изображения */
+    vertical-align: middle; /* Выравнивание изображения по вертикали */
+    padding: 0;
+}
+
+#whatsapp span {
+    vertical-align: middle; /* Выравнивание текста по вертикали */
+    margin-left: 5px; /* Отступ слева от текста */
+}
