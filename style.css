@@ -1,5 +1,5 @@
 body {
-    background-image: url('images/background.png'); /* Замените 'background.jpg' на путь к вашему изображению */
+    background-image: url("images/background.png"); /* Замените 'background.jpg' на путь к вашему изображению */
     background-attachment: fixed; /* Зафиксировать фоновое изображение */
     background-size: cover;
     background-position: center;
